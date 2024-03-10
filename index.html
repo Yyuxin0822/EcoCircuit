@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yuxin Yang | About</title>
+        <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+    </head>
+<body>
+<!-- Sidebar -->
+<nav class="sidebar">
+    <p class=h1><strong>E</strong>co<strong>C</strong>ircuit</p>
+   
+       <button type="button" class="collapsible">Weekly Log</button>
+           <div class="content">
+               <ul><a href="" class=p--info>Week 1</a></ul>
+               <ul><a href="" class=p--info>Week 2</a></ul>
+               <ul><a href="" class=p--info>Week 3</a></ul>
+               <ul><a href="" class=p--info>Week 4</a></ul>
+           </div>
+       <br>
+       <button type="button" class="collapsible">Showcase</button>
+           <div class="content">
+               <ul><a href="" class=p--info>Conceptual Environments</a></ul>
+               <ul><a href="" class=p--info>Published Projects</a></ul>
+           </div>
+       <p><a href="" class=p--info>News</a></p>
+       <p><a href="" class=p--info>Service</a></p>
+       <p><a href="index.html" class=p--info>About</a></p>
+   
+   
+       <footer>
+           <p>Published on GitHub Page <br>© Yuxin Yang, March 2024</p>
+       </footer>
+   </nav>  
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
+        });
+    }
+</script>
 
+
+<!-- Page Content -->
+<div style="margin-left:240px" class="a">
+<!--   
+    <img src="./resources/images/about/index.jpg" alt="Profile" width=240px>
+    <br>
+    <br>
+    <div>
+    <p class=p--info><strong>Conceptualizing Environments Through the Lens of Engineering and Technology</strong></p>
+    <p class=p--info>Hi! I am Yuxin Yang, a climate-positive and technology-savvy designer. I interface the built environment with system-and-process-driven creativity, 
+        with particular interests in mega-infrastructure, mixed-use development, clean energy, and (coastal) water systems.I incorporate
+    the knowledge of sensing technology and data visualization in design thinking. At or
+    after work, I develop interactive and responsive tools to facilitate the public agenda.</p>
+    <p class=p--info>I am currently employed as a full-time urban designer at <a href="https://www.interboropartners.com/">Interboro Partners</a> and a part-time computational designer at <a href="https://www.landau.design/">Landau Design + Technology</a>.
+    Previously, I worked as an assistant in inventive design firms or research institutions such as SOM,
+    SWA Group, URBANGENE, Zhuyufan Studio of Tsinghua University, and Shanghai Study
+    Center of Hongkong University.</p>
+    <p class=p--info>I graduated from Harvard Graduate School of Design with a Master of Landscape Architecture 
+        and cross-registered at MIT Media Lab and EECS during my studies. 
+        I have a Bachelor of Engineering from Southeast University's School of Architecture in China.</p>
+    </div>
+    <br>
+    <div>
+        <p class=p--info><strong>Technicals</strong></p>
+        <p class=p--info>Landscape and urban design (Rhino, Adobe Creative Suite (Photoshop, Illustrator, Indesign, Audition, Premier),
+            Lumion, Vray, AutoCAD) - 5;<br>
+            Geo tools (ArcGIS, ArcPy, ENVI) - 3;<br>
+            Computation ((Gh)Python, Grasshopper (Ladybug, Millipede), Arduino, Electronics, Processing, Web, SPSS) - 3;<br>
+            Prototyping (3D Printing, Laser Cut, 3D Scan) - 3<br><br>
+            Language: Chinese: native; English: advanced (TOEFL108); Deutsch: learner (A2)</p>
+    </div>
+    <br> -->
+    <div>
+        <p class=p--info><strong>Contact</strong></p>
+        <p class=p--info>Inquire via email: <a href="mailto:yuxiny0822@gmail.com">yuxiny0822@gmail.com</a><br>
+        Connect via LinkedIn: <a href="https://www.linkedin.com/in/yuxin-yang-78a671191/?originalSubdomain=cn">Here</a></p> 
+    </div>
+</div>
+
+  </body>
+  </html>
+  
